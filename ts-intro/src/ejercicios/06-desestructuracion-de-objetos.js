@@ -1,5 +1,5 @@
 "use strict";
-//DESESTRUCTURACION DE OBJETOS - Nos sirva crear constantes con las propiedades que tenemos de los propios objetos
+//DESESTRUCTURACION DE OBJETOS - Nos sirve para crear constantes con las propiedades que tenemos de los propios objetos
 const reproductor = {
     volumen: 90,
     segundo: 120,

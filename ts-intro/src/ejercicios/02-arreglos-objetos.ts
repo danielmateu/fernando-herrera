@@ -16,6 +16,6 @@ const personaje: Personaje = {
     habilidades: ['Bash','Counter','Healing'],
 }
 
-personaje.puebloNatal = 'Sitges'
+personaje.puebloNatal = 'Sitges';
 
 console.table(personaje);
