@@ -21,6 +21,8 @@ class Heroe extends PersonaNormal{
     
 }
 
-const ironman = new Heroe('Iron Man',45,'Toni Stark')
+const ironman = new Heroe('Iron Man',45,'Toni Stark');
 
-console.log(ironman);
+const superman = new Heroe('Superman',37,'Clark Ken')
+
+console.log(ironman, superman);
