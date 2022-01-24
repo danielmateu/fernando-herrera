@@ -1,5 +1,6 @@
 //Desestructuracion de argumentos -> Desestructuramos las propiedades que a nosotros nos interesan.
 
+export{ Producto}
 interface Producto {
     desc: string;
     precio: number;
@@ -15,7 +16,7 @@ const tablet: Producto = {
     precio: 450,
 };
 
-function calculaISV(productos: Producto[]): [number,number] {
+export function calculaISV(productos: Producto[]): [number,number] {
     let total = 0;
     //productos.forEach((producto)=>{
     // total += producto.precio;
